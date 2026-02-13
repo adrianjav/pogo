@@ -3,7 +3,7 @@
 This a [PyTorch](https://pytorch.org>) implementation of the POGO algorithm proposed in  [An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale](TODO).
 This is a lightweight and easy-to-use library containing the optimizer as a normal Pytorch Optimizer, and two base optimizers to choose for from now: SGD and [Vector Adam](https://arxiv.org/abs/2205.13599).
 
-**Beware:** You should pass only orthogonal parameters to the optimizer and initialize them as such. Check the docstrings!
+**Beware:** You should pass only orthogonal parameters to POGO and initialize them as such. See below!
 
 ## Installation
 
@@ -28,7 +28,7 @@ pip install git+https://github.com/adrianjav/pogo
 
 POGO is implemented as a Pytorch optimizer, so it should be quite intuitive to use. Moreover, the default parameters should work for most use cases. If that were not the case, feel free to check the docstrings and ultimately open an issue.
 
-To initialize your parameters as orthogonal, you can either use [`torch.init.orthogonal_`](https://docs.pytorch.org/docs/stable/nn.init.html#torch.nn.init.orthogonal_) (but make sure it does that you intend given the shape of your parameters) or use any other initialization method and then project them to be orthogonal. For example:
+To initialize your parameters as orthogonal, you can either use [`torch.init.orthogonal_`](https://docs.pytorch.org/docs/stable/nn.init.html#torch.nn.init.orthogonal_) (but make sure it does what you intend given the shape of your parameters) or use any other initialization method and then project them to be orthogonal. For example:
 
 ```python
 X = ... # My parameter
