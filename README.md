@@ -61,7 +61,7 @@ By default, POGO expects matrices of the form `[num_matrices, p, n]` with $p < n
     author  = {Javaloy, Adri{\'a}n and Vergari, Antonio},
     year    = 2025,
 	journal = {ArXiv preprint},
-	volume  = {TODO},
-	url     = {https://arxiv.org/abs/TODO}
+	volume  = {2602.14656},
+	url     = {https://arxiv.org/abs/2602.14656}
 }
 ```
