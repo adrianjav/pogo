@@ -1,7 +1,3 @@
-# EXCLUSIVE COPY FOR BATUHAN "DON JUAN" KOYUNCU.
-# IF YOU ARE NOT HIM/HER/THEM, YOU ARE NOT SUPPOSSED TO USE THIS CODE.
-# Thank you for your attention to this matter! DR ADRIAN J. BORNAS
-
 import math
 
 import torch
