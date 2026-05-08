@@ -56,12 +56,11 @@ By default, POGO expects matrices of the form `[num_matrices, p, n]` with $p < n
 ## Citation
 
 ```bibtex
-@article{javaloy2026pogo,
-    title   = {An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale},
-    author  = {Javaloy, Adri{\'a}n and Vergari, Antonio},
-    year    = 2025,
-	journal = {ArXiv preprint},
-	volume  = {2602.14656},
-	url     = {https://arxiv.org/abs/2602.14656}
+@inproceedings{javaloy2026pogo,
+    title   	= {An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale},
+    author	  	= {Javaloy, Adri{\'a}n and Vergari, Antonio},
+    year    	= {2026},
+	booktitle	= {Forty-third International Conference on Machine Learning},
+	url			= {https://openreview.net/forum?id=rlvnG8oKmN}
 }
 ```
